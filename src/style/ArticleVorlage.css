@@ -1,0 +1,370 @@
+.container.article {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.klappmenu_area{
+
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.klappmenu {
+
+    background-color: #111F33 !important;
+
+}
+
+.klappmenu_head h5 {
+
+    color: white !important;
+  
+}
+
+
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root { /* klappmenu_head_text und bkgrd Farbe */
+
+    font-weight: 800 !important;
+
+}
+
+.klappmenu_head .MuiSvgIcon-root path{ /* klapp arrow */
+
+    fill: white !important;
+
+}
+
+@media (min-width: 769px) {
+
+    .top-buttons {
+
+        margin-bottom: 5%;
+        display: flex;
+        display: row;
+
+    }
+
+    .top-buttons>Button {
+
+        transform: scale(1.09);
+        /* 5% vergrößern */
+        appearance: none;
+        background-color: #041D37;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+        min-height: 60px;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+        margin-right: 5%;
+
+        &:hover {
+            color: #EA6400;
+            background-color: #041D37;
+
+        }
+    }
+
+
+    .article_body {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .article_titel {
+
+        margin: 0% 0 5% 0;
+
+    }
+
+    .article_titel h2 {
+
+        color: #EA6400;
+        font-weight: 700;
+
+    }
+
+
+    .article_bild {
+
+
+        width: 737px;
+        /* fixed Bildbreite */
+        height: 320px;
+        /* fixed Bildhöhe */
+        margin-bottom: 5%;
+
+    }
+
+    .article_text {
+
+        padding-left: 200px;
+        padding-right: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .introbox {
+
+        padding: 10px 50px 10px 50px;
+        /*  oben, rechts, unten, links */
+        height: auto;
+        background-color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Schwarz mit 50% Opazität */
+        color: white;
+
+    }
+
+    .maintext_box {
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+
+    .maintext_box .maintext_box_text {
+
+        color: white;
+
+    }
+
+
+    .klappmenu_inhalte {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* Breite der Kiste */
+        max-height: 500px;
+        /* Höhe der Kiste */
+        overflow-y: auto;
+        border: 2px solid #111F33;
+        /* Grenze um die Kiste */
+        padding: 20px;
+        /* Innenabstand */
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #111F33;
+        /* Hintergrundfarbe der Kiste */
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        /* Ein leichter Schatten */
+
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* buttons angepasst */
+    .top-buttons {
+
+
+        margin-bottom: 5%;
+        display: flex;
+        display: row;
+        justify-content: center;
+
+    }
+
+    .top-buttons>Button {
+
+        transform: scale(1.09);
+        /* 5% vergrößern */
+        appearance: none;
+        background-color: #041D37;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: normal;
+        min-height: 60px;
+        outline: none;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+        margin-right: 5%;
+
+        &:hover {
+            color: #EA6400;
+            background-color: #041D37;
+
+        }
+    }
+
+    /* titel angepasst */
+
+    .article_body {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+
+    }
+
+
+    .article_titel {
+
+        margin: 5% 0 5% 0;
+        /* Verkürztes Padding (top/right/bottom/left) */
+
+    }
+
+    .article_titel h2 {
+
+        color: #EA6400;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    /* bild angepasst */
+    .article_bild {
+
+
+        width: 320px;
+        /* fixed Bildbreite */
+        height: auto;
+        /* fixed Bildhöhe */
+        margin-bottom: 5%;
+
+    }
+
+    /* main texte angepasst */
+
+    .introbox {
+
+        padding: 10px 10px 10px 10px;
+        /*  oben, rechts, unten, links */
+        height: auto;
+
+        background-color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Schwarz mit 50% Opazität */
+        color: white;
+    }
+
+
+    .maintext_box {
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: white;
+
+    }
+
+
+    /* social media buttons angepasst */
+
+    .socialmediabuttons {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+
+    .socialmediabuttons .MuiIconButton-root {
+        color: white;
+
+        &:hover {
+            color: #EA6400;
+        }
+    }
+
+
+    /* weiterlesen box angepasst */
+    .readmore_box {
+        width: 100%;
+        /* Breite der Kiste */
+        height: 300px;
+        /* Höhe der Kiste */
+        border: 2px solid #111F33;
+        /* Grenze um die Kiste */
+        padding: 20px;
+        /* Innenabstand */
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #111F33;
+        /* Hintergrundfarbe der Kiste */
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        /* Ein leichter Schatten */
+
+    }
+
+    .readmore_box .title_bar {
+
+        display: flex;
+        align-items: center;
+        /* Dies zentriert den Inhalt vertikal */
+        justify-content: start;
+        /* Dies startet den Inhalt horizontal von links */
+
+        background-color: #EA6400;
+        /* Orangefarbener Hintergrund */
+        padding: 10px;
+        /* Innenabstand */
+        width: auto;
+        /* Füllt die gesamte Breite des Elternelements aus */
+        height: 60px;
+        text-align: left;
+        /* Zentriert den Text */
+        margin: -22px;
+
+    }
+
+    .readmore_box .title_bar .readmore_titel {
+        font-size: 20px;
+        color: white;
+        /* Textfarbe */
+        font-weight: bold;
+        /* Schrift fett */
+        padding: 4% 0 1% 2%;
+        /* Verkürztes Padding (top/right/bottom/left) */
+
+    }
+
+
+
+    /* bk to top angepasst */
+
+}

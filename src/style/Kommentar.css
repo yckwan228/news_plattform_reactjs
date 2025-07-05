@@ -1,0 +1,77 @@
+.single-comment-box {
+
+    background-color: rgba(234, 100, 0, 1);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+
+
+
+.single-comment-box .action_btn{
+
+    position: absolute;
+    top: 0; 
+    right: 0;
+   
+}
+
+
+.action_btn{
+
+    background-color: #041D37;
+
+}
+
+
+.remove_btn{
+
+
+    background-color: #041D37;
+
+}
+
+#btn{
+
+    fill: white
+
+
+}
+
+.profilpic img {
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+}
+
+.profilName{
+
+    color: white;
+    font-weight: 500;
+
+}
+
+.timeOfComment{
+
+
+    font-size: small !important;
+
+}
+
+.comment {
+
+    margin-top: 2%;
+
+}

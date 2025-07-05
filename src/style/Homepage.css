@@ -1,0 +1,286 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Dies stellt sicher, dass der Container mindestens so hoch ist wie der Viewport. */
+
+
+}
+
+@media (min-width: 769px) {
+    
+    .carousel-inner>.carousel-item>img {
+        object-fit: fill;
+        object-position: center;
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+
+
+    }
+}
+
+.carousel-caption {
+
+    font-size: 20px;
+
+}
+
+.home-body {
+
+    color: white;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .home-content {
+
+        margin-top: 15%;
+
+    }
+
+
+
+    .carousel-inner>.carousel-item>img {
+
+        object-fit: fill;
+        object-position: center;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+
+
+    }
+
+}
+
+.home-content {
+
+    color: black;
+
+    padding-top: 5%;
+    padding: 5%;
+
+}
+
+.card .card-body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.card-title {
+
+    font-size: 35px !important;
+    font-family: "DM_Sans_Bold";
+    color: #041D37 !important;
+    word-break: keep-all !important;
+    text-align: center;
+}
+
+.card-text {
+
+    font-size: 15px !important;
+    font-family: "DM_Sans_Bold";
+    color: #2B4C6F !important;
+    word-break: keep-all !important;
+    text-align: center;
+}
+
+.card-img-top {
+
+    height: 15vw;
+    object-fit: cover;
+
+}
+
+
+
+.card-title,
+.card-text,
+.btn {
+    margin: 5px 0;
+    /* Adjust this value as per your design requirements */
+
+}
+
+
+
+.card .card-body .btn:hover {
+
+    transform: scale(1.09);
+    /* 5% vergrößern */
+    transition: transform 0.3s;
+    /* Animationseffekt */
+    color: #EB6400;
+
+}
+
+.card .card-body .btn {
+
+    transform: scale(1.09);
+    /* 5% vergrößern */
+    transition: transform 0.3s;
+    /* Animationseffekt */
+    color: #EB6400;
+    appearance: none;
+    background-color: #041D37;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+
+}
+
+
+.card .card-body .btn:disabled {
+    pointer-events: none;
+}
+
+.card .card-body .btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-color: #041D37;
+}
+
+.card .card-body .btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+.body-box {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+
+
+}
+
+.body-box .col-lg-8 .col-12 .d-flex .text-secondary:hover {
+    transform: scale(1.09);
+    /* 5% vergrößern */
+    transition: transform 0.3s;
+    /* Animationseffekt */
+
+}
+
+.body-box .col-lg-8 {
+
+    margin-right: 5%;
+
+}
+
+.overlay {
+    padding: 3%;
+    height: 200px;
+    /* oder die gewünschte Höhe in px, em, rem oder % */
+    overflow: scroll;
+    /* um sicherzustellen, dass überflüssiger Inhalt nicht über den Container hinaus angezeigt wird */
+    background-color: #041D37;
+    color: white;
+
+}
+
+.overlay:hover {
+
+    background-color: #EB6400;
+
+
+}
+
+.overlay:hover a {
+    color: white;
+    /* Ersetzen Sie "gewünschteFarbe" durch den gewünschten Farbcode, z.B. #ff0000 für Rot */
+}
+
+.overlay .h4 {
+    color: #EB6400;
+    font-size: 24px;
+
+}
+
+.overlay .m-0 {
+    font-size: 18px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.small-news-container {
+
+    height: 100px;
+
+    background-color: #041D37;
+    color: white;
+}
+
+.d-flex.mb-3.small-news-container>.w-100.d-flex.flex-column.justify-content-center.px-3 {
+
+    overflow: scroll;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 11px;
+
+}
+
+.small-news-container:hover .m-0 {
+
+    color: #041D37;
+
+}
+
+.small-news-container:hover {
+
+    background-color: #EB6400;
+
+}
+
+.side-news-container {
+
+    background-color: #041D37;
+    color: white;
+
+
+}
+
+
+.side-news-container:hover {
+
+    background-color: #EB6400;
+
+}
+
+.side-news-container:hover .h6 {
+
+    color: #041D37;
+
+}

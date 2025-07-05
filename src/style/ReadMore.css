@@ -1,0 +1,52 @@
+.klappmenu {
+
+    background-color: #111F33 !important;
+
+}
+
+.klappmenu_head h5 {
+
+    color: white !important;
+  
+}
+
+
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root { /* klappmenu_head_text und bkgrd Farbe */
+
+    font-weight: 800 !important;
+
+}
+
+.klappmenu_head .MuiSvgIcon-root path{ /* klapp arrow */
+
+    fill: white !important;
+
+}
+
+
+@media (min-width: 769px) {
+
+    .klappmenu_inhalte {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* Breite der Kiste */
+        max-height: 500px;
+        /* Höhe der Kiste */
+        overflow-y: auto;
+        border: 2px solid #111F33;
+        /* Grenze um die Kiste */
+        padding: 20px;
+        /* Innenabstand */
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #111F33;
+        /* Hintergrundfarbe der Kiste */
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        /* Ein leichter Schatten */
+
+    }
+
+}

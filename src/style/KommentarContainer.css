@@ -1,0 +1,36 @@
+.input-form {
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-form .task-input-userName {
+
+    width: 100%;
+
+}
+
+
+.input-form .task-input-content {
+
+    width: 100%;
+
+}
+
+.taskAbgeben{
+
+
+    background-color:  #041D37;
+
+}
+
+.task-btn {
+
+    background-color:  #041D37;
+    width: 50%;
+    color: white;
+}

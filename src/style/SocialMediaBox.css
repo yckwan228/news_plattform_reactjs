@@ -1,0 +1,38 @@
+@media (min-width: 769px) {
+    
+
+    .socialmediabuttons .MuiIconButton-root {
+        color: white;
+
+
+    }
+
+    .socialmediabuttons .MuiIconButton-root:hover {
+        color: #EA6400;
+
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .socialmediabuttons {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+
+    .socialmediabuttons .MuiIconButton-root {
+        color: white;
+
+        &:hover {
+            color: #EA6400;
+        }
+    }
+
+}

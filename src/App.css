@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "NotoSansTC-Medium";
+  src: url("./fonts/NotoSansTC-Medium.ttf");
+}
+
+
+
+.App {
+
+  background-color: #2B4C6F;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "NotoSansTC-Medium";
+  font-size: 20px;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+/* #navbar.navbar.navbar-expand-lg {
+
+  background-color: #EB6400;
+  padding-bottom: 1%;
+
+} */
+
+.container-fluid .navbar-brand img {
+
+  width: 200px;
+  /* oder die gewünschte Breite */
+  height: auto;
+  /* behält das Seitenverhältnis bei */
+  overflow: auto;
+
+}
+
+
+
+*,
+*::before,
+*::after {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+nav {
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+
+}
+
+nav>ul,
+nav>ul>li {
+
+  outline: 0;
+
+}
+
+
+
+nav>ul>li>a {
+
+  text-decoration: none;
+
+}
+
+.main-menu {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  overflow: hidden;
+  background: #0009;
+  transition: width.05s linear;
+  -webkit-transition: width .05s linear;
+  z-index: 10;
+  padding-top: 10px;
+  
+
+
+}
+
+
+
+.main-menu:hover {
+
+  width: 191px;
+  overflow: visible;
+
+}
+
+.main-menu>ul>li {
+
+  position: relative;
+  display: block;
+  width: 150px;
+
+}
+
+.main-menu>ul>li:hover {
+
+  transform: scale(1.09);
+  /* 5% vergrößern */
+  transition: transform 0.3s;
+  /* Animationseffekt */
+
+
+}
+
+
+
+.main-menu>ul>li>a {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 1rem;
+  transition: all .1s linear;
+  -webkit-transition: all .1s linear;
+  padding-top: 20px;
+
+}
+
+.nav-icon {
+
+  width: 60px;
+  height: 20px;
+  font-size: 20px;
+  text-align: left;
+
+
+}
+
+.nav-text {
+
+  width: 120px;
+  height: 20px;
+  font-family: "NotoSansTC-Medium";
+  color: white;
+  margin-left: 25px;
+
+
+}
+
+
+
+.nav-login {
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 30px;
+  
+  
+
+}
+
+@media (min-width: 769px) {
+  .main-menu ul {
+    display: flex;
+    /* Weitere Desktop-spezifische Stile */
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  .nav-text:hover {
+
+    color: #EB6400;
+  
+  
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .main-menu {
+    display: none;
+  }
+
+  .hamburger-icon {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  
+  }
+
+
+  .nav-text:hover {
+
+    color: #041D37;
+  
+  
+  }
+
+}
+
+  .hamburger-icon button {
+
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #2B4C6F;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+   
+  }
+
+  .hamburger-icon .navPanel {
+
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    padding: 5%;
+    background-color: rgba(235, 100, 0, 0.9); /* Schwarz mit 50% Opazität */
+
+
+  }
+
+
+a {
+    
+    color: white !important;
+    text-decoration: none !important;
+
+  }
+
+  .hamburger-icon .nav-icon {
+
+
+    color: #041D37;
+
+  }
+
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* or another value to ensure it stays on top */
+    
+  }
+
+
+.sticky-footer {
+
+
+  background-color: #f5f5f5;
+  /* Hintergrundfarbe für den Footer, kann nach Belieben angepasst werden */
+  text-align: center;
+  margin-top: auto;
+  /* Dieser Stil sorgt dafür, dass der Footer nach unten "gedrückt" wird. */
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+.social-buttons .fab {
+  transition: transform 0.3s;
+  /* Animationseffekt */
+}
+
+.social-buttons .fab:hover {
+  transform: scale(1.2);
+  /* 5% vergrößern */
+  color: #EB6400;
+}
+
+li::marker {
+  content: "";
+}
+
+
+
+
+.top {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+  background: #041D37;
+  position: fixed;
+  left: 50%;                  /* Den Button horizontal zentrieren */
+  transform: translateX(-50%); /* Anpassung, um den Button genau in der Mitte zu positionieren */
+  bottom: 30px;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  z-index: 1000;
+  
+}

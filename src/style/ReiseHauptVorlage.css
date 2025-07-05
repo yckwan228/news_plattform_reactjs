@@ -1,0 +1,233 @@
+
+
+
+@media (min-width: 769px) {
+
+    .carousel-inner>.carousel-item>img {
+        object-fit: fill;
+        object-position: center;
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+
+
+    }
+
+    .carousel-caption {
+
+        font-size: 20px;
+
+    }
+
+    .contentbox {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .scroll-box {
+
+        display: flex;
+        overflow-x: scroll;
+        padding: 10px;
+        width: 97%;
+        scroll-snap-type: x mandatory;
+
+        border-radius: 8px;
+        gap: 10px !important;
+        flex-grow: 1;
+
+
+    }
+
+    .card-title {
+
+        font-size: 35px !important;
+        color: #041D37 !important;
+        word-break: keep-all !important;
+        padding-left: 2%;
+        padding-right: 2%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card-text {
+
+        font-size: 15px !important;
+        color: #2B4C6F !important;
+        word-break: keep-all !important;
+        margin-bottom: 4%;
+    }
+
+    .introTitel {
+
+        color: #EA6400;
+        font-weight: 800;
+        font-size: 80px;
+
+    }
+
+    .txtbox {
+
+        margin-left: 5%;
+
+
+    }
+
+    .readMoreBox {
+
+        margin-bottom: 3%;
+        margin-top: 5%;
+        width: 50%;
+        
+
+    
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .contentbox {
+
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 3%;
+        margin-bottom: 3%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .scroll-box {
+
+        display: flex;
+        overflow-x: scroll;
+        padding: 10px;
+        width: 100%;
+        scroll-snap-type: x mandatory;
+
+        border-radius: 8px;
+        gap: 10px !important;
+        flex-grow: 1;
+        margin-top: 5%;
+
+
+    }
+
+    .card-title {
+
+        font-size: 35px !important;
+        color: #041D37 !important;
+        word-break: keep-all !important;
+        padding-left: 2%;
+        padding-right: 2%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card-text {
+
+        font-size: 15px !important;
+        color: #2B4C6F !important;
+        word-break: keep-all !important;
+        margin-bottom: 4%;
+    }
+
+    .introTitel {
+
+        color: #EA6400;
+        font-weight: 500;
+        font-size: 60px;
+
+    }
+
+    .txtbox {
+
+        margin-top: 5%;
+
+
+    }
+    
+    .readMoreBox {
+
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 100%;
+    
+    
+    }
+
+}
+
+
+
+
+
+.scroll-box::-webkit-scrollbar {
+    width: 2px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+    background-color: #2B4C6F;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background-color: #041D37;
+    border-radius: 10px;
+    border: 3px solid #041D37;
+}
+
+.scroll-box .item {
+
+    flex: 0 0 100%;
+    padding: 10%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+
+}
+
+
+
+.card-img-topR {
+
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+
+.txt {
+
+    color: white !important;
+    font-weight: 600;
+
+
+}
+
+.socialmediaBox {
+
+    margin-left: -5px;
+
+
+
+}
+
+
